@@ -2,6 +2,8 @@ import subprocess
 import pathlib
 import threading
 
+EXE = "/home/sevecl/Desktop/C/Firmware/Pipe/build/pipe"
+
 class PipeProcess:
     def __init__(self, exe_path):
         self.exe = pathlib.Path(exe_path)
